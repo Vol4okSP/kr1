@@ -1,1 +1,147 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar-brand {
+    padding-right: 15%;
+}
+
+.Informa {
+    display: block;
+    padding: 31% 0% 0% 38%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(1, 155, 142);
+    color: white;
+
+}
+
+.tit {
+    padding-left: 38%;
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+.target {
+    padding: 0% 0% 0% 35%;
+    display: block;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+  
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+
+
+.dec {
+    padding: 0% 0% 0% 17%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+.stat {
+    padding: 10% 0% 0% 0%;
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+.player {
+    padding-left: 25%;
+}
+
+table {
+    border-spacing: 0;
+    empty-cells: hide;
+    }
+    td {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #F4EEE8;
+    transition: all 0.5s linear;
+    }
+    td:first-child {
+    text-align: left;
+    color: #3D3511;
+    font-weight: bold;
+    }
+    th {
+    padding: 10px 20px;
+    color: #3D3511;
+    border-bottom: 1px solid #F4EEE8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    td:nth-child(even) {
+    background: rgb(1, 155, 142);
+    }
+    td:nth-child(odd) {
+    background: rgb(122, 122, 204);
+    }
+    th:nth-child(even)  {
+        background: rgb(1, 155, 142);
+    }
+    th:nth-child(odd)  {
+    background: rgb(122, 122, 204);
+    }
+    .round-top {
+    border-top-left-radius: 5px;
+    }
+    .round-bottom {
+    border-bottom-left-radius: 5px;
+    }
+    tr:hover td{
+    background: rgb(1, 155, 142);
+    font-weight: bold;
+    }
+
+
+
+.position {
+    padding: 2% 0% 0% 0%;
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+
+
+
+.submit1 {
+    background-color: rgb(122, 122, 204);
+    color: black;
+    border-radius: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 100px;
+
+}
+
+.clear {
+    background-color: rgb(122, 122, 204);
+    color: black;
+    border-radius: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.form {
+    padding: 0% 0% 0% 0%;
+    background-color: rgb(0, 155, 129);
+    color: white;
+}
+
+.user {
+    padding-left: 20%;
+    padding-top: 33%;
+    background-color: rgb(1, 155, 142);
+    color: white;
+}
+
+.UInfo {
+    padding-bottom: 10%;
+    padding-left: 35%;
+    background-color: rgb(0, 146, 102);
+    color: white;
+}
